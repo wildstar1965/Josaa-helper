@@ -1,0 +1,21 @@
+{
+  "name": "counselmate-functions",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node index.js",
+    "serve": "firebase emulators:start --only functions,firestore"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.22.1",
+    "firebase-admin": "^11.11.1",
+    "firebase-functions": "^4.9.0",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
